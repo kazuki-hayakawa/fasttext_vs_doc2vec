@@ -1,0 +1,9 @@
+.DS_Store
+*.bin
+*.model
+*.vec
+/dataset/news_text/
+/lib/__pycache__/
+/model_fasttext/__pycache__/
+/dataset/*.csv
+/model_fasttext/newswords.txt

@@ -1,0 +1,7 @@
+numpy
+scipy
+pandas
+fasttext
+mecab-python3
+gensim
+sklearn
