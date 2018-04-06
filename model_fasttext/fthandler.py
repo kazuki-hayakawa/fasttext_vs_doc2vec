@@ -15,9 +15,7 @@ from lib.mecab_split import mecab_split as ms
 
 class FastTextHandler(object):
 
-    def __init__(self, use_surface=False, use_neologd=False,
-                 chain_noun=False, unique=False, dim=200, epoch=5,
-                 window_size=5):
+    def __init__(self, dim=200, epoch=5, window_size=5):
         super(FastTextHandler, self).__init__()
         self.__params_fasttext = {
             'dim': dim,
